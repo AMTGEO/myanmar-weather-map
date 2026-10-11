@@ -193,7 +193,7 @@ with tab1:
         zoom_start=5,
         min_zoom=5,
         max_zoom=12,
-        tiles="CartoDB positron",
+        tiles="OpenStreetMap",
     )
 
     heat_points = [[c["lat"], c["lon"], c["temp"]] for c in cities_weather]
